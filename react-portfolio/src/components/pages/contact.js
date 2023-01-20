@@ -28,10 +28,10 @@ function Contact(){
     }
     return (
         <div className="contactContainer">
-            <h1>Contact</h1>
             <form onSubmit={handleFormSubmit}>
+            <h1>Contact</h1>
                 <div>
-                    <h2>Name</h2>
+                    <h2>Name:</h2>
                     <input 
                     type="text" 
                     value={name}
@@ -39,7 +39,7 @@ function Contact(){
                     />
                 </div>
                 <div>
-                    <h2>Email Adress</h2>
+                    <h2>Email Address:</h2>
                     <input 
                     type="text" 
                     value={email}
@@ -47,7 +47,7 @@ function Contact(){
                     />
                 </div>
                 <div>
-                    <h2>Message</h2>
+                    <h2>Message:</h2>
                     <textarea 
                     type="text" 
                     value={message}
@@ -56,7 +56,7 @@ function Contact(){
                 </div>
                 <h2>{response}</h2>
                 <div>
-                    <button>dddd </button>
+                    <button>Submit</button>
                 </div>
             </form>
         </div>

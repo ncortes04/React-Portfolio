@@ -5,10 +5,10 @@ function footer(){
         <div className='footerContainer'>
             <ul>
                 <li>
-                <a href='' className='githubBtn'></a>
+                    <a href='https://github.com/ncortes04' className='githubBtn'></a>
                 </li>
                 <li>
-                <a href='' className='githubBtn'></a>
+                     <a href='' className='githubBtn'></a>
                 </li>
                 <li>
                     <a href='' className='githubBtn'></a>
